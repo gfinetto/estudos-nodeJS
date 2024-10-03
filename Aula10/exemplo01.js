@@ -12,11 +12,5 @@ const pessoa = {
  pessoa.cpf = '123456789-21';
 
 
- function imprimeObjeto(objPessoa) {
-    if (objPessoa.cpf > 3) {
-        console.log(pessoa.cpf.substring(0, 4));
-    }
- }
- 
 
- console.log(imprimeObjeto(pessoa));
+
